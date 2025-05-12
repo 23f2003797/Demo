@@ -1,0 +1,11 @@
+name: Email Step Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2003797@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
